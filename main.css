@@ -1,0 +1,52 @@
+h1 {
+  color: red;
+}
+
+body {
+  background-color: greenyellow;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media (max-width:320px) {
+  html {
+    font-size: 0.3em;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  html {
+    font-size:0.4em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  html
+  {
+  font-size:0.55em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  html
+  {
+  font-size:0.8em;
+  }
+}
+
+@media (min-width: 980px) and (max-width:1025px) {
+  html
+  {
+  font-size:0.9em;
+  }
+}
+
+@media (min-width: 1026px) {
+  html
+  {
+  font-size:1.2em;
+  }
+}
